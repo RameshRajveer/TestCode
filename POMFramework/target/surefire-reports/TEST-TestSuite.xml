@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="6" failures="1" name="TestSuite" time="7.77" errors="0" skipped="5">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="MyFirstJob"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="JENKINS_HOME" value="C:\Users\RAMESH\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="b9fb0472b0323a9d"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\RAMESH\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_60-b27"/>
+    <property name="user.name" value="RAMESH"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files (x86)"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="MyFirstJob"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/MyFirstJob/1/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#1"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_60\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\RAMESH\AppData\Local"/>
+    <property name="java.version" value="1.8.0_60"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="RAMESH"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="1"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="maven.conf" value="C:\Users\RAMESH\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="=::" value="::\"/>
+    <property name="SCITE_USERHOME" value="C:\Users\RAMESH\AppData\Local\AutoIt v3\SciTE"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_60\jre"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="os.version" value="6.1"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/MyFirstJob/1/display/redirect"/>
+    <property name="TMP" value="C:\Users\RAMESH\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.60-b23"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/MyFirstJob/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="JAVA_HOME" value="C:\Program Files (x86)\Java\jdk1.8.0_60"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\RAMESH"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="COMPUTERNAME" value="RAMESH-PC"/>
+    <property name="user.script" value=""/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="user.home" value="C:\Users\RAMESH"/>
+    <property name="BUILD_TAG" value="jenkins-MyFirstJob-1"/>
+    <property name="JENKINS_SERVER_COOKIE" value="b9fb0472b0323a9d"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\RAMESH"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\RAMESH\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files (x86)\Java\jdk1.8.0_60/bin;C:\Program Files (x86)\Java\jdk1.8.0_60/bin;C:\Users\RAMESH\Downloads\Redis-x64-3.2.100;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Java\jdk1.8.0_60\bin;C:\Users\RAMESH\Downloads\Redis-x64-3.2.100;C:\Users\RAMESH\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\RAMESH\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\RAMESH\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="java.class.path" value="C:\Users\RAMESH\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12.jar;C:\Users\RAMESH\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\boot\plexus-classworlds-2.5.2.jar;C:\Users\RAMESH\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\RAMESH\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven C:\Users\RAMESH\.jenkins\war\WEB-INF\lib\remoting-3.25.jar C:\Users\RAMESH\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar C:\Users\RAMESH\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar 50252"/>
+    <property name="Path" value="C:\Program Files (x86)\Java\jdk1.8.0_60/bin;C:\Users\RAMESH\Downloads\Redis-x64-3.2.100;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Java\jdk1.8.0_60\bin;C:\Users\RAMESH\Downloads\Redis-x64-3.2.100;C:\Users\RAMESH\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
+    <property name="PATH+JDK" value="C:\Program Files (x86)\Java\jdk1.8.0_60/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 37 Stepping 5, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Users\RAMESH\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="java.io.tmpdir" value="C:\Users\RAMESH\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\RAMESH\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\RAMESH\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/MyFirstJob/1/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="x86"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\RAMESH\git\TestCode\POMFramework"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/MyFirstJob/"/>
+    <property name="LOGONSERVER" value="\\RAMESH-PC"/>
+    <property name="USERDOMAIN" value="RAMESH-PC"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="C:\Users\RAMESH\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="BUILD_NUMBER" value="1"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="2505"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="=C:" value="C:\Users\RAMESH\Desktop\Jenkins"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\RAMESH\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar"/>
+    <property name="WORKSPACE" value="C:\Users\RAMESH\.jenkins\workspace\MyFirstJob"/>
+    <property name="maven3.interceptor.common" value="C:\Users\RAMESH\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\AutoIt3\AutoItX"/>
+  </properties>
+  <testcase classname="TestCases.LoginPageTest" name="setUp" time="1.293">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at BaseClass.TestBase.inilization(TestBase.java:34)
+	at TestCases.LoginPageTest.setUp(LoginPageTest.java:23)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@81f4dc
+</system-out>
+    <system-err>java.io.FileNotFoundException: E:\Selenium Sessions\POMFramework\src\main\java\Configuration\config.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:93)
+	at BaseClass.TestBase.&lt;init&gt;(TestBase.java:21)
+	at TestCases.LoginPageTest.&lt;init&gt;(LoginPageTest.java:18)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.testng.internal.ObjectFactoryImpl.newInstance(ObjectFactoryImpl.java:24)
+	at org.testng.internal.ClassHelper.createInstance1(ClassHelper.java:423)
+	at org.testng.internal.ClassHelper.createInstance(ClassHelper.java:336)
+	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:125)
+	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:190)
+	at org.testng.TestClass.getInstances(TestClass.java:95)
+	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:81)
+	at org.testng.TestClass.init(TestClass.java:73)
+	at org.testng.TestClass.&lt;init&gt;(TestClass.java:38)
+	at org.testng.TestRunner.initMethods(TestRunner.java:389)
+	at org.testng.TestRunner.init(TestRunner.java:271)
+	at org.testng.TestRunner.init(TestRunner.java:241)
+	at org.testng.TestRunner.&lt;init&gt;(TestRunner.java:167)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:663)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:260)
+	at org.testng.SuiteRunner.&lt;init&gt;(SuiteRunner.java:198)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1295)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1273)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</system-err>
+  </testcase>
+  <testcase classname="TestCases.LoginPageTest" name="loginPageTitleTest" time="1.295">
+    <skipped/>
+  </testcase>
+  <testcase classname="TestCases.LoginPageTest" name="tearDown" time="1.295">
+    <skipped/>
+  </testcase>
+  <testcase classname="TestCases.LoginPageTest" name="setUp" time="1.295">
+    <skipped/>
+  </testcase>
+  <testcase classname="TestCases.LoginPageTest" name="logingiftease" time="1.296">
+    <skipped/>
+  </testcase>
+  <testcase classname="TestCases.LoginPageTest" name="tearDown" time="1.296">
+    <skipped/>
+  </testcase>
+</testsuite>

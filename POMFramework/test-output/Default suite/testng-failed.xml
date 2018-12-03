@@ -7,6 +7,7 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="loginPageTitleTest"/>
           <include name="logingiftease"/>
         </methods>
       </class> <!-- TestCases.LoginPageTest -->

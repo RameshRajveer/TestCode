@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 1.781 sec <<< FAILURE!
+setUp(TestCases.LoginPageTest)  Time elapsed: 1.293 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at BaseClass.TestBase.inilization(TestBase.java:34)
+	at TestCases.LoginPageTest.setUp(LoginPageTest.java:23)
+
