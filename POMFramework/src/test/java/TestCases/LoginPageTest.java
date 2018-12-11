@@ -33,7 +33,9 @@ public class LoginPageTest extends TestBase {
 	
 	@Test(priority=2)
 	public void logingiftease(){
-		hp=lp.login(prop.getProperty("username"), prop.getProperty("password"));
+		
+		lp.login(prop.getProperty("username"), prop.getProperty("password"));
+		
 	}
 
 	@AfterMethod

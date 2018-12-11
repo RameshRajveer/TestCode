@@ -19,7 +19,7 @@ public class TestBase {
 		try {
 			prop = new Properties();
 			FileInputStream ip = new FileInputStream(
-					"E:\\Selenium Sessions\\POMFramework\\src\\main\\java\\Configuration\\config.properties");
+					"C:\\Users\\RAMESH\\git\\TestCode\\POMFramework\\src\\main\\java\\Configuration\\config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
