@@ -25,17 +25,23 @@ public class LoginPageTest extends TestBase {
 		lp = new LoginPage();
 	}
 
-	@Test(priority=1)
+	@Test(priority = 1)
 	public void loginPageTitleTest() {
 		String title = lp.ValidateLoginPageTitle();
 		Assert.assertEquals(title, "Giftease - Gifting Experience | Online Gifting | Personalized Gifts");
 	}
-	
-	@Test(priority=2)
-	public void logingiftease(){
-		
+
+	@Test(priority = 3)
+	public void logingiftease() {
+
 		lp.login(prop.getProperty("username"), prop.getProperty("password"));
-		
+
+	}
+
+	@Test(priority = 2)
+	public void ForgotPasswordPageTest() {
+		lp.CLickonForgotpassword();
+
 	}
 
 	@AfterMethod
