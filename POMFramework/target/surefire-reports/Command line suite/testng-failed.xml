@@ -6,8 +6,8 @@
       <class name="TestCases.LoginPageTest">
         <methods>
           <include name="setUp"/>
+          <include name="ForgotPasswordPageTest"/>
           <include name="tearDown"/>
-          <include name="loginPageTitleTest"/>
           <include name="logingiftease"/>
         </methods>
       </class> <!-- TestCases.LoginPageTest -->
