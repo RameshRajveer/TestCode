@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="TestSuite" time="89.23" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="TestSuite" time="86.688" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_60\jre\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="E:\Selenium Sessions\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5776481932410151086.tmp"/>
+    <property name="classworlds.conf" value="E:\Selenium Sessions\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3804252954802292702.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jdk1.8.0_60/bin/../jre/bin/client;C:/Program Files (x86)/Java/jdk1.8.0_60/bin/../jre/bin;C:/Program Files (x86)/Java/jdk1.8.0_60/bin/../jre/lib/i386;C:\Users\RAMESH\Downloads\Redis-x64-3.2.100;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Java\jdk1.8.0_60\bin;C:\Users\RAMESH\Downloads\Redis-x64-3.2.100;C:\Users\RAMESH\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\Docker Toolbox;E:\eclipse-jee-mars-R-win32\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,9 +61,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase classname="TestCases.ForgotPasswordPageTest" name="VerifyForgotPasswordPageTitle" time="13.537"/>
+  <testcase classname="TestCases.ForgotPasswordPageTest" name="VerifyForgotPasswordPageTitle" time="44.508"/>
   <testcase classname="TestCases.LoginPageTest" name="loginPageTitleTest" time="0.025"/>
-  <testcase classname="TestCases.ForgotPasswordPageTest" name="ClickonSendEmailButton" time="28.519"/>
-  <testcase classname="TestCases.LoginPageTest" name="ForgotPasswordPageTest" time="21.331"/>
-  <testcase classname="TestCases.LoginPageTest" name="logingiftease" time="25.818"/>
+  <testcase classname="TestCases.ForgotPasswordPageTest" name="ClickonSendEmailButton" time="15.608"/>
+  <testcase classname="TestCases.LoginPageTest" name="ForgotPasswordPageTest" time="10.52"/>
+  <testcase classname="TestCases.LoginPageTest" name="logingiftease" time="16.027"/>
 </testsuite>

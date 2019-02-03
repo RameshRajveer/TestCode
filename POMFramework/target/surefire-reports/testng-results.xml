@@ -2,70 +2,70 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="234025" started-at="2019-02-02T04:27:38Z" finished-at="2019-02-02T04:31:32Z">
+  <suite name="Command line suite" duration-ms="285506" started-at="2019-02-03T04:56:23Z" finished-at="2019-02-03T05:01:08Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="234025" started-at="2019-02-02T04:27:38Z" finished-at="2019-02-02T04:31:32Z">
+    <test name="Command line test" duration-ms="285506" started-at="2019-02-03T04:56:23Z" finished-at="2019-02-03T05:01:08Z">
       <class name="TestCases.ForgotPasswordPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.ForgotPasswordPageTest@5d012c]" name="setUp" is-config="true" duration-ms="20260" started-at="2019-02-02T04:27:38Z" finished-at="2019-02-02T04:27:58Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.ForgotPasswordPageTest@5d012c]" name="setUp" is-config="true" duration-ms="34321" started-at="2019-02-03T04:56:23Z" finished-at="2019-02-03T04:56:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VerifyForgotPasswordPageTitle()[pri:1, instance:TestCases.ForgotPasswordPageTest@5d012c]" name="VerifyForgotPasswordPageTitle" duration-ms="13528" started-at="2019-02-02T04:27:58Z" finished-at="2019-02-02T04:28:12Z">
+        <test-method status="PASS" signature="VerifyForgotPasswordPageTitle()[pri:1, instance:TestCases.ForgotPasswordPageTest@5d012c]" name="VerifyForgotPasswordPageTitle" duration-ms="44503" started-at="2019-02-03T04:56:57Z" finished-at="2019-02-03T04:57:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyForgotPasswordPageTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.ForgotPasswordPageTest@5d012c]" name="tearDown" is-config="true" duration-ms="2344" started-at="2019-02-02T04:28:12Z" finished-at="2019-02-02T04:28:14Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.ForgotPasswordPageTest@5d012c]" name="tearDown" is-config="true" duration-ms="290" started-at="2019-02-03T04:57:42Z" finished-at="2019-02-03T04:57:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.ForgotPasswordPageTest@5d012c]" name="setUp" is-config="true" duration-ms="38208" started-at="2019-02-02T04:28:44Z" finished-at="2019-02-02T04:29:22Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.ForgotPasswordPageTest@5d012c]" name="setUp" is-config="true" duration-ms="39082" started-at="2019-02-03T04:58:46Z" finished-at="2019-02-03T04:59:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ClickonSendEmailButton()[pri:2, instance:TestCases.ForgotPasswordPageTest@5d012c]" name="ClickonSendEmailButton" duration-ms="28526" started-at="2019-02-02T04:29:22Z" finished-at="2019-02-02T04:29:50Z">
+        <test-method status="PASS" signature="ClickonSendEmailButton()[pri:2, instance:TestCases.ForgotPasswordPageTest@5d012c]" name="ClickonSendEmailButton" duration-ms="15610" started-at="2019-02-03T04:59:25Z" finished-at="2019-02-03T04:59:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickonSendEmailButton -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.ForgotPasswordPageTest@5d012c]" name="tearDown" is-config="true" duration-ms="2215" started-at="2019-02-02T04:29:50Z" finished-at="2019-02-02T04:29:53Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.ForgotPasswordPageTest@5d012c]" name="tearDown" is-config="true" duration-ms="2129" started-at="2019-02-03T04:59:40Z" finished-at="2019-02-03T04:59:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- TestCases.ForgotPasswordPageTest -->
       <class name="TestCases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.LoginPageTest@1b6a447]" name="setUp" is-config="true" duration-ms="27481" started-at="2019-02-02T04:28:14Z" finished-at="2019-02-02T04:28:41Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.LoginPageTest@1b6a447]" name="setUp" is-config="true" duration-ms="61739" started-at="2019-02-03T04:57:42Z" finished-at="2019-02-03T04:58:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:TestCases.LoginPageTest@1b6a447]" name="loginPageTitleTest" duration-ms="19" started-at="2019-02-02T04:28:41Z" finished-at="2019-02-02T04:28:42Z">
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:TestCases.LoginPageTest@1b6a447]" name="loginPageTitleTest" duration-ms="21" started-at="2019-02-03T04:58:44Z" finished-at="2019-02-03T04:58:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.LoginPageTest@1b6a447]" name="tearDown" is-config="true" duration-ms="2137" started-at="2019-02-02T04:28:42Z" finished-at="2019-02-02T04:28:44Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.LoginPageTest@1b6a447]" name="tearDown" is-config="true" duration-ms="2145" started-at="2019-02-03T04:58:44Z" finished-at="2019-02-03T04:58:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.LoginPageTest@1b6a447]" name="setUp" is-config="true" duration-ms="28398" started-at="2019-02-02T04:29:53Z" finished-at="2019-02-02T04:30:21Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.LoginPageTest@1b6a447]" name="setUp" is-config="true" duration-ms="34875" started-at="2019-02-03T04:59:43Z" finished-at="2019-02-03T05:00:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ForgotPasswordPageTest()[pri:2, instance:TestCases.LoginPageTest@1b6a447]" name="ForgotPasswordPageTest" duration-ms="21333" started-at="2019-02-02T04:30:21Z" finished-at="2019-02-02T04:30:42Z">
+        <test-method status="PASS" signature="ForgotPasswordPageTest()[pri:2, instance:TestCases.LoginPageTest@1b6a447]" name="ForgotPasswordPageTest" duration-ms="10524" started-at="2019-02-03T05:00:17Z" finished-at="2019-02-03T05:00:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ForgotPasswordPageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.LoginPageTest@1b6a447]" name="tearDown" is-config="true" duration-ms="2197" started-at="2019-02-02T04:30:42Z" finished-at="2019-02-02T04:30:45Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.LoginPageTest@1b6a447]" name="tearDown" is-config="true" duration-ms="332" started-at="2019-02-03T05:00:28Z" finished-at="2019-02-03T05:00:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.LoginPageTest@1b6a447]" name="setUp" is-config="true" duration-ms="19210" started-at="2019-02-02T04:30:45Z" finished-at="2019-02-02T04:31:04Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.LoginPageTest@1b6a447]" name="setUp" is-config="true" duration-ms="21680" started-at="2019-02-03T05:00:28Z" finished-at="2019-02-03T05:00:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="logingiftease()[pri:3, instance:TestCases.LoginPageTest@1b6a447]" name="logingiftease" duration-ms="25821" started-at="2019-02-02T04:31:04Z" finished-at="2019-02-02T04:31:30Z">
+        <test-method status="PASS" signature="logingiftease()[pri:3, instance:TestCases.LoginPageTest@1b6a447]" name="logingiftease" duration-ms="16036" started-at="2019-02-03T05:00:50Z" finished-at="2019-02-03T05:01:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logingiftease -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.LoginPageTest@1b6a447]" name="tearDown" is-config="true" duration-ms="2252" started-at="2019-02-02T04:31:30Z" finished-at="2019-02-02T04:31:32Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.LoginPageTest@1b6a447]" name="tearDown" is-config="true" duration-ms="2115" started-at="2019-02-03T05:01:06Z" finished-at="2019-02-03T05:01:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
