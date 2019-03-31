@@ -22,7 +22,10 @@ public class LoginPage extends TestBase {
 
 	@FindBy(linkText = "Forgot Your Password?")
 	WebElement Forgotpasswordlink;
-
+	
+	@FindBy(xpath="//button[contains(text(),'Login using password')]")
+	WebElement loginwithpassword;
+	
 	public LoginPage() {
 
 		PageFactory.initElements(driver, this);
@@ -36,6 +39,7 @@ public class LoginPage extends TestBase {
 	public HomePage login(String un, String ps) {
 		loginicon.click();
 		username.sendKeys(un);
+		loginwithpassword.click();
 		password.sendKeys(ps);
 		loginbutton.click();
 

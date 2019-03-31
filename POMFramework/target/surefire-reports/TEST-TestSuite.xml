@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="80.189" tests="5" errors="0" skipped="0" failures="1">
+<testsuite name="TestSuite" time="75.11" tests="5" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_60\jre\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="E:\Selenium Sessions\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8224575116406433354.tmp"/>
+    <property name="classworlds.conf" value="E:\Selenium Sessions\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7204465571111199686.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jdk1.8.0_60/bin/../jre/bin/client;C:/Program Files (x86)/Java/jdk1.8.0_60/bin/../jre/bin;C:/Program Files (x86)/Java/jdk1.8.0_60/bin/../jre/lib/i386;C:\Users\RAMESH\Downloads\Redis-x64-3.2.100;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Java\jdk1.8.0_60\bin;C:\Users\RAMESH\Downloads\Redis-x64-3.2.100;C:\Users\RAMESH\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\Docker Toolbox;E:\eclipse-jee-mars-R-win32\eclipse;;."/>
     <property name="surefire.test.class.path" value="C:\Users\RAMESH\git\TestCode\POMFramework\target\test-classes;C:\Users\RAMESH\git\TestCode\POMFramework\target\classes;C:\Users\RAMESH\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\RAMESH\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\RAMESH\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\RAMESH\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\RAMESH\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\RAMESH\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\RAMESH\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\RAMESH\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\RAMESH\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\RAMESH\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\RAMESH\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\RAMESH\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\RAMESH\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\RAMESH\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\RAMESH\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\RAMESH\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\RAMESH\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\RAMESH\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\RAMESH\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\RAMESH\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\RAMESH\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\RAMESH\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\RAMESH\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\RAMESH\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\RAMESH\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\RAMESH\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\RAMESH\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\RAMESH\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.18.1\surefire-testng-utils-2.18.1.jar;C:\Users\RAMESH\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.18.1\surefire-grouper-2.18.1.jar;"/>
@@ -49,7 +49,7 @@
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="1.8.0_60"/>
     <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\classes"/>
@@ -64,20 +64,20 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase name="loginPageTitleTest" classname="TestCases.LoginPageTest" time="0.04"/>
-  <testcase name="VerifyForgotPasswordPageTitle" classname="TestCases.ForgotPasswordPageTest" time="28.143"/>
-  <testcase name="ForgotPasswordPageTest" classname="TestCases.LoginPageTest" time="11.703"/>
-  <testcase name="ClickonSendEmailButton" classname="TestCases.ForgotPasswordPageTest" time="8.65"/>
-  <testcase name="logingiftease" classname="TestCases.LoginPageTest" time="31.653">
-    <failure message="element not visible&#10;  (Session info: chrome=72.0.3626.119)&#10;  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;RAMESH-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\RAMESH\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}&#10;Session ID: afd7cac3c0ec287f3e51388e2e5b82fc" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: element not visible
-  (Session info: chrome=72.0.3626.119)
+  <testcase name="loginPageTitleTest" classname="TestCases.LoginPageTest" time="0.028"/>
+  <testcase name="VerifyForgotPasswordPageTitle" classname="TestCases.ForgotPasswordPageTest" time="16.57"/>
+  <testcase name="ForgotPasswordPageTest" classname="TestCases.LoginPageTest" time="14.646"/>
+  <testcase name="ClickonSendEmailButton" classname="TestCases.ForgotPasswordPageTest" time="12.375"/>
+  <testcase name="logingiftease" classname="TestCases.LoginPageTest" time="31.491">
+    <failure message="element not visible&#10;  (Session info: chrome=72.0.3626.121)&#10;  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;RAMESH-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\RAMESH\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.121, webStorageEnabled: true}&#10;Session ID: fb748c6db17732a7807b93f88d9a30cf" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=72.0.3626.121)
   (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'RAMESH-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\RAMESH\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
-Session ID: afd7cac3c0ec287f3e51388e2e5b82fc
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\RAMESH\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: fb748c6db17732a7807b93f88d9a30cf
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -101,9 +101,9 @@ Session ID: afd7cac3c0ec287f3e51388e2e5b82fc
 	at Pages.LoginPage.login(LoginPage.java:39)
 	at TestCases.LoginPageTest.logingiftease(LoginPageTest.java:37)
 </failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 29365
+    <system-err><![CDATA[Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 26781
 Only local connections are allowed.
-Mar 04, 2019 9:56:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 31, 2019 11:19:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
