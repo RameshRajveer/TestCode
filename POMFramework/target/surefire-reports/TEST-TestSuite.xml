@@ -1,169 +1,83 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="9" failures="1" name="TestSuite" time="256.621" errors="0" skipped="5">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="80.189" tests="5" errors="0" skipped="0" failures="1">
   <properties>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="JOB_NAME" value="CICD Pipeline"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="NUMBER_OF_PROCESSORS" value="4"/>
-    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
-    <property name="JENKINS_HOME" value="C:\Users\RAMESH\.jenkins"/>
-    <property name="HUDSON_SERVER_COOKIE" value="b9fb0472b0323a9d"/>
-    <property name="POM_ARTIFACTID" value="POMFramework"/>
-    <property name="os.name" value="Windows 7"/>
-    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\classes"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="POM_DISPLAYNAME" value="POMFramework"/>
-    <property name="NODE_LABELS" value="master"/>
-    <property name="TEMP" value="C:\Users\RAMESH\AppData\Local\Temp"/>
-    <property name="java.runtime.version" value="1.8.0_60-b27"/>
-    <property name="user.name" value="RAMESH"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
-    <property name="ProgramFiles" value="C:\Program Files (x86)"/>
-    <property name="PROMPT" value="$P$G"/>
-    <property name="user.language" value="en"/>
-    <property name="JOB_BASE_NAME" value="CICD Pipeline"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/CICD%20Pipeline/5/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#5"/>
-    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_60\jre\bin"/>
-    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="dc465c1b8b95d4d40cbfe8b85c35f732ffc11e09"/>
-    <property name="DOCKER_TOOLBOX_INSTALL_PATH" value="C:\Program Files\Docker Toolbox"/>
-    <property name="LOCALAPPDATA" value="C:\Users\RAMESH\AppData\Local"/>
-    <property name="java.version" value="1.8.0_60"/>
-    <property name="PROCESSOR_LEVEL" value="6"/>
-    <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="USERNAME" value="RAMESH"/>
-    <property name="sun.arch.data.model" value="32"/>
-    <property name="NODE_NAME" value="master"/>
-    <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="5"/>
-    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="file.separator" value="\"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="HOMEDRIVE" value="C:"/>
-    <property name="maven.conf" value="C:\Users\RAMESH\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\conf"/>
-    <property name="java.class.version" value="52.0"/>
-    <property name="=::" value="::\"/>
-    <property name="SCITE_USERHOME" value="C:\Users\RAMESH\AppData\Local\AutoIt v3\SciTE"/>
-    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
-    <property name="user.country" value="US"/>
-    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
-    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_60\jre"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="os.version" value="6.1"/>
-    <property name="=ExitCode" value="00000001"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/CICD%20Pipeline/5/display/redirect"/>
-    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
-    <property name="TMP" value="C:\Users\RAMESH\AppData\Local\Temp"/>
-    <property name="path.separator" value=";"/>
-    <property name="java.vm.version" value="25.60-b23"/>
-    <property name="user.variant" value=""/>
-    <property name="GIT_PREVIOUS_COMMIT" value="dc465c1b8b95d4d40cbfe8b85c35f732ffc11e09"/>
-    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/CICD%20Pipeline/display/redirect"/>
-    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="FP_NO_HOST_CHECK" value="NO"/>
-    <property name="JAVA_HOME" value="C:\Program Files (x86)\Java\jdk1.8.0_60"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
-    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="HOMEPATH" value="\Users\RAMESH"/>
-    <property name="POM_PACKAGING" value="jar"/>
-    <property name="user.script" value=""/>
-    <property name="COMPUTERNAME" value="RAMESH-PC"/>
-    <property name="POM_GROUPID" value=".com"/>
-    <property name="VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\"/>
-    <property name="user.home" value="C:\Users\RAMESH"/>
-    <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-CICD Pipeline-5"/>
-    <property name="JENKINS_SERVER_COOKIE" value="b9fb0472b0323a9d"/>
-    <property name="=E:" value="E:\Selenium-2018"/>
-    <property name="HUDSON_URL" value="http://localhost:8080/"/>
-    <property name="ProgramData" value="C:\ProgramData"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="USERPROFILE" value="C:\Users\RAMESH"/>
-    <property name="CLASSPATH" value=""/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\RAMESH\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files (x86)\Java\jdk1.8.0_60/bin;C:\Program Files (x86)\Java\jdk1.8.0_60/bin;C:\Users\RAMESH\Downloads\Redis-x64-3.2.100;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Java\jdk1.8.0_60\bin;C:\Users\RAMESH\Downloads\Redis-x64-3.2.100;C:\Users\RAMESH\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\Docker Toolbox;."/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="APPDATA" value="C:\Users\RAMESH\AppData\Roaming"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="maven.home" value="C:\Users\RAMESH\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
-    <property name="java.class.path" value="C:\Users\RAMESH\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12.jar;C:\Users\RAMESH\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\boot\plexus-classworlds-2.5.2.jar;C:\Users\RAMESH\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\RAMESH\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven C:\Users\RAMESH\.jenkins\war\WEB-INF\lib\remoting-3.27.jar C:\Users\RAMESH\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar C:\Users\RAMESH\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar 53531"/>
-    <property name="Path" value="C:\Program Files (x86)\Java\jdk1.8.0_60/bin;C:\Users\RAMESH\Downloads\Redis-x64-3.2.100;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Java\jdk1.8.0_60\bin;C:\Users\RAMESH\Downloads\Redis-x64-3.2.100;C:\Users\RAMESH\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\Docker Toolbox"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
-    <property name="PATH+JDK" value="C:\Program Files (x86)\Java\jdk1.8.0_60/bin"/>
-    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 37 Stepping 5, GenuineIntel"/>
-    <property name="SESSIONNAME" value="Console"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="sun.os.patch.level" value="Service Pack 1"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="M2_HOME" value="C:\Users\RAMESH\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
-    <property name="java.io.tmpdir" value="C:\Users\RAMESH\AppData\Local\Temp\"/>
-    <property name="OS" value="Windows_NT"/>
-    <property name="HUDSON_HOME" value="C:\Users\RAMESH\.jenkins"/>
-    <property name="PATH+MAVEN" value="C:\Users\RAMESH\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin"/>
-    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/CICD%20Pipeline/5/"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="os.arch" value="x86"/>
-    <property name="SystemRoot" value="C:\Windows"/>
-    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
-    <property name="user.dir" value="C:\Users\RAMESH\git\TestCode\POMFramework"/>
-    <property name="JOB_URL" value="http://localhost:8080/job/CICD%20Pipeline/"/>
-    <property name="LOGONSERVER" value="\\RAMESH-PC"/>
-    <property name="USERDOMAIN" value="RAMESH-PC"/>
-    <property name="line.separator" value="
-"/>
-    <property name="MAVEN_HOME" value="C:\Users\RAMESH\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_60\jre\bin"/>
+    <property name="java.vm.version" value="25.60-b23"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\RAMESH\git\TestCode\POMFramework"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
-    <property name="BUILD_NUMBER" value="5"/>
-    <property name="JENKINS_URL" value="http://localhost:8080/"/>
-    <property name="PROCESSOR_REVISION" value="2505"/>
-    <property name="GIT_BRANCH" value="origin/master"/>
-    <property name="ProgramW6432" value="C:\Program Files"/>
-    <property name="windir" value="C:\Windows"/>
-    <property name="GIT_COMMIT" value="dc465c1b8b95d4d40cbfe8b85c35f732ffc11e09"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="SystemDrive" value="C:"/>
-    <property name="maven3.interceptor" value="C:\Users\RAMESH\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar"/>
-    <property name="WORKSPACE" value="C:\Users\RAMESH\.jenkins\workspace\CICD Pipeline"/>
-    <property name="maven3.interceptor.common" value="C:\Users\RAMESH\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\RAMESH\git\TestCode\POMFramework"/>
+    <property name="java.runtime.version" value="1.8.0_60-b27"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="C:\Users\RAMESH\git\TestCode\POMFramework"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\RAMESH\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="E:\Selenium Sessions\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8224575116406433354.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jdk1.8.0_60/bin/../jre/bin/client;C:/Program Files (x86)/Java/jdk1.8.0_60/bin/../jre/bin;C:/Program Files (x86)/Java/jdk1.8.0_60/bin/../jre/lib/i386;C:\Users\RAMESH\Downloads\Redis-x64-3.2.100;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Java\jdk1.8.0_60\bin;C:\Users\RAMESH\Downloads\Redis-x64-3.2.100;C:\Users\RAMESH\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\Docker Toolbox;E:\eclipse-jee-mars-R-win32\eclipse;;."/>
+    <property name="surefire.test.class.path" value="C:\Users\RAMESH\git\TestCode\POMFramework\target\test-classes;C:\Users\RAMESH\git\TestCode\POMFramework\target\classes;C:\Users\RAMESH\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\RAMESH\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\RAMESH\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\RAMESH\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\RAMESH\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\RAMESH\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\RAMESH\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\RAMESH\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\RAMESH\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\RAMESH\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\RAMESH\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\RAMESH\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\RAMESH\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\RAMESH\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\RAMESH\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\RAMESH\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\RAMESH\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\RAMESH\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\RAMESH\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\RAMESH\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\RAMESH\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\RAMESH\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\RAMESH\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\RAMESH\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\RAMESH\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\RAMESH\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\RAMESH\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\RAMESH\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.18.1\surefire-testng-utils-2.18.1.jar;C:\Users\RAMESH\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.18.1\surefire-grouper-2.18.1.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\RAMESH"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
-    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\AutoIt3\AutoItX"/>
-    <property name="GIT_URL" value="https://github.com/RameshDhawane/TestCode"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="RAMESH"/>
+    <property name="java.class.path" value="/E:/eclipse-jee-mars-R-win32/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_60\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.8.0_60"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\classes"/>
+    <property name="webdriver.chrome.driver" value="E:\Selenium-2018\chromedriver_win32\chromedriver.exe"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\RAMESH\git\TestCode\POMFramework\EMBEDDED"/>
+    <property name="localRepository" value="C:\Users\RAMESH\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase classname="TestCases.ForgotPasswordPageTest" name="VerifyForgotPasswordPageTitle" time="16.491"/>
-  <testcase classname="TestCases.LoginPageTest" name="loginPageTitleTest" time="0.023"/>
-  <testcase classname="TestCases.ForgotPasswordPageTest" name="ClickonSendEmailButton" time="23.001"/>
-  <testcase classname="TestCases.LoginPageTest" name="setUp" time="36.18">
-    <failure message="chrome not reachable
-  (Session info: chrome=71.0.3578.98)
+  <testcase name="loginPageTitleTest" classname="TestCases.LoginPageTest" time="0.04"/>
+  <testcase name="VerifyForgotPasswordPageTitle" classname="TestCases.ForgotPasswordPageTest" time="28.143"/>
+  <testcase name="ForgotPasswordPageTest" classname="TestCases.LoginPageTest" time="11.703"/>
+  <testcase name="ClickonSendEmailButton" classname="TestCases.ForgotPasswordPageTest" time="8.65"/>
+  <testcase name="logingiftease" classname="TestCases.LoginPageTest" time="31.653">
+    <failure message="element not visible&#10;  (Session info: chrome=72.0.3626.119)&#10;  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;RAMESH-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\RAMESH\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}&#10;Session ID: afd7cac3c0ec287f3e51388e2e5b82fc" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=72.0.3626.119)
   (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;RAMESH-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'RAMESH-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\RAMESH\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
-Session ID: d7a2ce561c7218b17f5c83dd1a16ed75" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=71.0.3578.98)
-  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;RAMESH-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\RAMESH\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
-Session ID: d7a2ce561c7218b17f5c83dd1a16ed75
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\RAMESH\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: afd7cac3c0ec287f3e51388e2e5b82fc
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -176,30 +90,21 @@ Session ID: d7a2ce561c7218b17f5c83dd1a16ed75
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:690)
-	at BaseClass.TestBase.inilization(TestBase.java:43)
-	at TestCases.LoginPageTest.setUp(LoginPageTest.java:23)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy28.sendKeys(Unknown Source)
+	at Pages.LoginPage.login(LoginPage.java:39)
+	at TestCases.LoginPageTest.logingiftease(LoginPageTest.java:37)
 </failure>
-    <system-err>Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 2268
+    <system-err><![CDATA[Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 29365
 Only local connections are allowed.
-Feb 03, 2019 12:49:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 04, 2019 9:56:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
-</system-err>
-  </testcase>
-  <testcase classname="TestCases.LoginPageTest" name="ForgotPasswordPageTest" time="36.185">
-    <skipped/>
-  </testcase>
-  <testcase classname="TestCases.LoginPageTest" name="tearDown" time="36.185">
-    <skipped/>
-  </testcase>
-  <testcase classname="TestCases.LoginPageTest" name="setUp" time="36.185">
-    <skipped/>
-  </testcase>
-  <testcase classname="TestCases.LoginPageTest" name="logingiftease" time="36.185">
-    <skipped/>
-  </testcase>
-  <testcase classname="TestCases.LoginPageTest" name="tearDown" time="36.186">
-    <skipped/>
+]]></system-err>
   </testcase>
 </testsuite>
