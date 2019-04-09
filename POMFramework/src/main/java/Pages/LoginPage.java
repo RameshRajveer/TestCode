@@ -14,10 +14,10 @@ public class LoginPage extends TestBase {
 	@FindBy(id = "j_username")
 	WebElement username;
 
-	@FindBy(id = "j_password")
+	@FindBy(id="j_password")
 	WebElement password;
 
-	@FindBy(id = "Sign")
+	@FindBy(id="Sign")
 	WebElement loginbutton;
 
 	@FindBy(linkText = "Forgot Your Password?")
