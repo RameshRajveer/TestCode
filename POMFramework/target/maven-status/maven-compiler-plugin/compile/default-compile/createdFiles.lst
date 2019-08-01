@@ -1,0 +1,12 @@
+Pages\ListingPage.class
+Pages\ProductDetailPage.class
+Pages\SignUpPage.class
+Pages\OrderSuccessPage.class
+BaseClass\TestBase.class
+Pages\ForgotpasswordPage.class
+Pages\MyAccountPage.class
+Utilities\Testutil.class
+Pages\CartPage.class
+Pages\CheckoutPage.class
+Pages\LoginPage.class
+Pages\HomePage.class
