@@ -46,6 +46,8 @@ public class TestBase {
 		driver.manage().timeouts().implicitlyWait(Testutil.implicit_wait, TimeUnit.SECONDS);
 		driver.get(prop.getProperty("url"));
 		
-		// added comment to check poll scm in jenkiens 
+		//Test
+		
+		// added comment to check poll scm in jenkies
 	}
 }
