@@ -10,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import Utilities.Testutil;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase {
 	public static WebDriver driver;
@@ -33,8 +34,8 @@ public class TestBase {
 		String broeserName = prop.getProperty("browser");
 		if (broeserName.equals("chrome")) {
 
-			System.setProperty("webdriver.chrome.driver", "D:\\Stuff\\chromedriver_win32\\chromedriver.exe");
-			//WebDriverManager.chromedriver().setup();
+			//System.setProperty("webdriver.chrome.driver", "D:\\Stuff\\chromedriver_win32\\chromedriver.exe");
+			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 		} else if (broeserName.equals("FF")) {
 			// launch FF browser
